@@ -2,6 +2,7 @@
   "domain": "fft_sensor",
   "name": "FFT Sensor",
   "documentation": "https://github.com/your-username/fft_sensor",
+  "version": "1.0.0",
   "dependencies": [],
   "codeowners": ["@your-username"],
   "requirements": ["numpy", "scipy"]
