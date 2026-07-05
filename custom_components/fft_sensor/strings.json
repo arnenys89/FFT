@@ -7,6 +7,8 @@
         "data": {
           "sensor_id": "Sensor to analyze",
           "buffer_size": "FFT Buffer Size",
+          "sample_rate": "Sample Rate (Hz)",
+          "frequency_resolution": "Frequency Resolution (Hz)",
           "name": "Sensor Name"
         }
       }

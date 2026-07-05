@@ -19,6 +19,8 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                     selector.EntitySelectorConfig(domain="sensor")
                 ),
                 vol.Required("buffer_size", default=64): int,
+                vol.Required("sample_rate", default=10): vol.Coerce(float),
+                vol.Required("frequency_resolution", default=1): vol.Coerce(float),
                 vol.Required("name", default="FFT Sensor"): str,
             }),
         )
