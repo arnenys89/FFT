@@ -1,0 +1,6 @@
+{
+  "name": "FFT Sensor Integration",
+  "description": "A custom Home Assistant integration that performs FFT on a selected sensor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

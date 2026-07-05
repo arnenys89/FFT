@@ -1,0 +1,1 @@
+"""FFT Sensor integration."""

@@ -1,0 +1,15 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "FFT Sensor Settings",
+        "description": "Configure FFT sensor parameters.",
+        "data": {
+          "sensor_id": "Sensor to analyze",
+          "buffer_size": "FFT Buffer Size",
+          "name": "Sensor Name"
+        }
+      }
+    }
+  }
+}
